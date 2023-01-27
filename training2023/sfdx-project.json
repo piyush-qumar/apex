@@ -1,0 +1,12 @@
+{
+  "packageDirectories": [
+    {
+      "path": "training2023",
+      "default": true
+    }
+  ],
+  "name": "training2023",
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "55.0"
+}
