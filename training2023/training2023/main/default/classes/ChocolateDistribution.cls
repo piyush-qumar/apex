@@ -6,15 +6,15 @@ public with sharing class ChocolateDistribution {
     instance=new ChocolateDistribution();}
     return instance;
    }
-   public static Long ChocoTreat(List<Long> a,Long n,Long m)
+   public static Long ChocoTreat(List<Long> a,Integer n,Integer m)
    {
       a.sort();
       Long maxi=1000000000L;
-      Long l=0;
-      Long r=m-1;
+      Integer l=0;
+      Integer r=m-1;
       while(r<n)
       {
-         Long diff=Long.valueOf((Long)a.get(r)) -Long.valueOf((Long)a.get(l)) ;
+         Long diff=a.get(r) -a.get(l) ;
          if(maxi>diff)
          {
             maxi=diff;
