@@ -22,6 +22,7 @@ public with sharing class ChocolateDistribution {
          l=l+1;
          r=r+1;
       }
+      System.debug('maxi'+maxi);
       return maxi;
 
    }
